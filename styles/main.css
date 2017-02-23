@@ -21,7 +21,10 @@ nav a:focus {
 }
 # Styling for questions and answers
 .question_and_answers {
-
+  margin: none;
+}
+.question_and_answers li {
+  list-style: none;
 }
 .question {
   background-color: #4e4cba;
