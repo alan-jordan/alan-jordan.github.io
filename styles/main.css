@@ -6,7 +6,6 @@ nav {
   background-color: #888;
 }
 nav ul {
-  margin: 0;
 }
 nav li {
   list-style: none;
@@ -24,10 +23,12 @@ nav a:active,
 nav a:focus {
   text-decoration: underline;
 }
-# Styling for questions and answers
-.question_and_answers {
-  margin: none;
+h1 {
+  color: red;
+  text-decoration: underline;
 }
+# Styling for questions and answers
+
 .question_and_answers li {
   list-style: none;
 }
