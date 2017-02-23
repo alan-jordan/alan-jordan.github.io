@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: helvetica;
   background-color: #ddd;
@@ -5,9 +9,11 @@ body {
 /** Styling for nav bar **/
 nav {
   background-color: #ddd;
+  padding: 0px;
+  margin-top: 10px
 }
 nav ul {
-  margin: 0;
+  padding: 0 10px 0 10px;
 }
 nav li {
   list-style: none;
@@ -27,25 +33,29 @@ nav a:focus {
 }
 
 h1 {
+  padding: 10px;
   color: #353333;
   text-decoration: underline;
 }
-# Styling for questions and answers
+p {
+  padding: 10px;
+}
+/** Styling for questions and answers **/
 .question_and_answers {
-  margin: none;
 }
 .question_and_answers li {
   list-style: none;
+  padding: 5px;
 }
 .question {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   background-color: #353333;
-  padding: 5px;
-  margin-top: 5px;
+  padding-top: 5px;
   color: #fff;
+  margin: 10px 10px 0 10px;
 }
 .answer {
   background-color: #aaa;
-  padding: 5px;
+  margin: 0 10px 0 10px;
 }
