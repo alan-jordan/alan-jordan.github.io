@@ -1,0 +1,34 @@
+body {
+  font-family: helvetica;
+}
+# Styling for nav bar
+nav ul {
+  margin: 0;
+}
+nav li {
+  list-style: none;
+  display: inline-block;
+  background-color: #888;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+nav a:hover,
+nav a:active,
+nav a:focus {
+  font-weight: bold;
+}
+# Styling for questions and answers
+.question_and_answers {
+
+}
+.question {
+  background-color: #4e4cba;
+  padding: 5px;
+  margin-top: 5px;
+}
+.answer {
+  background-color: #888;
+  padding: 5px;
+}
