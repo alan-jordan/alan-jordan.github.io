@@ -1,7 +1,11 @@
 body {
   font-family: helvetica;
 }
-# Styling for nav bar
+/** Styling for nav bar **/
+nav {
+  background-color: #888;
+  width: 600px;
+}
 nav ul {
   margin: 0;
 }
@@ -9,6 +13,8 @@ nav li {
   list-style: none;
   display: inline-block;
   background-color: #888;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 nav a {
   text-decoration: none;
