@@ -4,7 +4,6 @@ body {
 /** Styling for nav bar **/
 nav {
   background-color: #888;
-  width: 600px;
 }
 nav ul {
   margin: 0;
@@ -23,7 +22,7 @@ nav a {
 nav a:hover,
 nav a:active,
 nav a:focus {
-  font-weight: bold;
+  text-decoration: underline;
 }
 # Styling for questions and answers
 .question_and_answers {
@@ -33,6 +32,8 @@ nav a:focus {
   list-style: none;
 }
 .question {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   background-color: #4e4cba;
   padding: 5px;
   margin-top: 5px;
