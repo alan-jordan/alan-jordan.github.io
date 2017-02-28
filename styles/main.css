@@ -7,28 +7,27 @@ body {
   background-color: #ddd;
 }
 /** Styling for nav bar **/
-nav {
-  background-color: #ddd;
+.nav {
+  background-color: #ff0000;
   padding: 0px;
-  margin-top: 10px
+  padding-left: 5px;
 }
-nav ul {
+.nav ul {
   padding: 0 10px 0 10px;
 }
-nav li {
+.nav li {
   list-style: none;
   display: inline-block;
-  background-color: #aaa;
   padding: 10px;
   border-radius: 5px;
 }
-nav a {
+.nav a {
   text-decoration: none;
   color: white;
 }
-nav a:hover,
-nav a:active,
-nav a:focus {
+.nav a:hover,
+.nav a:active,
+.nav a:focus {
   text-decoration: underline;
 }
 
