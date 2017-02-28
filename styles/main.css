@@ -58,3 +58,12 @@ p {
   background-color: #aaa;
   margin: 0 10px 0 10px;
 }
+
+/** Styling for wishlist **/
+.wishlist {
+  padding-left: 5px;
+  list-style: none;
+}
+.content {
+  padding-left: 10px;
+}
