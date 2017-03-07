@@ -19,7 +19,7 @@ body {
 .nav a {
   color: #555;
 }
-h1 {
+h1, h4 {
   margin-left: 25px;
 }
 .heading_pic {
@@ -38,8 +38,16 @@ h1 {
 }
 .main {
   padding: 5px 25px 10px 0;
+  border-bottom: 1px #fff solid;
+}
+.main p {
   margin-left: 25px;
 }
 .footer {
-
+  color: #fff;
+  background-color: #000;
+}
+.footer h5 {
+  margin-left: 25px;
+  padding: 10px 0 0 0;
 }
