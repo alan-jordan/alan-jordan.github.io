@@ -10,21 +10,26 @@ body {
 .container {
   background-color: #F6EFE5;
 }
+.header {
+  background-color: #333;
+  margin-bottom: 2%;
+}
 .nav {
-  padding: 10px 5px 10px 5px;
+  padding: 2% 2% 2% 2%;
   margin: auto;
 }
 .nav li {
   display: inline;
   margin-left: 10px;
   padding: 0 10px 0 10px;
-  color: #555;
+  color: #ddd;
 }
 .nav a {
-  color: #555;
+  color: #ddd;
 }
 h1, h4 {
-  margin-left: 25px;
+  color: #ddd;
+  margin-left: 2%;
 }
 .heading_pic {
   display: block;
@@ -41,19 +46,19 @@ h1, h4 {
     list-style-type: none;
 }
 .main {
-  padding: 5px 25px 10px 0;
+  padding: 2% 3% 2% 0%;
   border-bottom: 1px #fff solid;
 }
 .main p {
   margin-left: 25px;
 }
 .footer {
-  color: #fff;
-  background-color: #000;
+  color: #ddd;
+  background-color: #333;
 }
 .footer h5 {
-  margin-left: 25px;
-  padding: 10px 0 0 0;
+  margin-left: 3%;
+  padding-top: 1%;
 }
 
 .blog_link {
