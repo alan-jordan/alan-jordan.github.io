@@ -10,6 +10,7 @@ body {
 .header {
   background-color: #333;
   /*margin-bottom: 2%;*/
+  text-align: center;
 }
 
 .main_pic {
