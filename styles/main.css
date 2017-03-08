@@ -8,7 +8,7 @@ body {
 .header {
   background-color: #333;
   padding: 2% 2% 2% 2%;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .main_pic {
