@@ -21,9 +21,6 @@ body {
   border-bottom: 1px #fff solid;
   background-color: #F6EFE5;
 }
-.main p {
-  /*margin-left: 25px;*/
-}
 
 .footer {
   color: #ddd;
@@ -33,7 +30,6 @@ body {
   margin-left: 3%;
   padding-top: 2%
 }
-
 
 .nav {
   padding: 2% 2% 2% 2%;
