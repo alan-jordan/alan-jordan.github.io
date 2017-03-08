@@ -62,15 +62,7 @@ body {
     list-style-type: none;
 }
 
-
-.blog_link {
-  max-width: 95%;
+.caption_pic {
   display: block;
   margin: 0 auto;
-}
-.blog_gallery {
-  margin: 15px 15px 15px 15px;
-}
-.blog_gallery p {
-  margin-left: 5px;
 }
