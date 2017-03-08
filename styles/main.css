@@ -1,19 +1,41 @@
 body {
-  /** background-color: rgb(13,44,64);*//
-  /** background-color: rgb(13,44,64);*//
   background-color: #000000;
   background-image: url("https://alan-jordan.github.io/images/debut-dark.png");
   color: #555;
   font-family: 'Roboto', sans-serif;
-  max-width: 100%;
 }
 .container {
-  background-color: #F6EFE5;
+
 }
+
+
 .header {
   background-color: #333;
   margin-bottom: 2%;
 }
+
+.main_pic {
+  display: block;
+  max-width: 95%;
+  margin: 0 auto;
+  background-color: #F6EFE5;
+}
+
+.main {
+  /**padding: 2% 3% 2% 0%;**/
+  border-bottom: 1px #fff solid;
+  background-color: #F6EFE5;
+}
+.main p {
+  margin-left: 25px;
+}
+
+.footer h5 {
+  margin-left: 3%;
+  padding-top: 2%
+}
+
+
 .nav {
   padding: 2% 2% 2% 2%;
   margin: auto;
@@ -31,11 +53,7 @@ h1, h4 {
   color: #ddd;
   margin-left: 2%;
 }
-.heading_pic {
-  display: block;
-  max-width: 95%;
-  margin: 0 auto;
-}
+
 .boxout {
   background-color: #fff;
   box-shadow: 2px 2px 2px #888888;
@@ -45,20 +63,11 @@ h1, h4 {
 .boxout li {
     list-style-type: none;
 }
-.main {
-  padding: 2% 3% 2% 0%;
-  border-bottom: 1px #fff solid;
-}
-.main p {
-  margin-left: 25px;
-}
+
+
 .footer {
   color: #ddd;
   background-color: #333;
-}
-.footer h5 {
-  margin-left: 3%;
-  padding-top: 1%;
 }
 
 .blog_link {
