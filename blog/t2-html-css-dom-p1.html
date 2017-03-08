@@ -1,62 +1,103 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>HTML, CSS and the DOM</title>
+    <title>HTML, CSS & the DOM</title>
     <meta charset="UTF-8">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" rel="stylesheet" type="text/css">
     <link href="../styles/main.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
   </head>
-
   <body>
-    <ul class="nav">
-      <li><a href="../index.html">Home</a></li>
-      <li><a href="c1-reflection-blog.html">Reflection blog</a></li>
-      <li><a href="c1-time-and-habits.html">Time and habits</a></li>
-      <li><a href="t2-html-css-dom-p1.html">HTML, CSS and the DOM Pt.1</a></li>
-      <li><a href="t2-html-css-dom-p2.html">HTML, CSS and the DOM Pt.2</a></li>
-      <li><a href="c2-emotional-intelligence.html">Emotional Intelligence</a></li>      
-    </ul>
+    <!-- Nav Menu -->
+    <div class="section header">
+      <div class="container">
+        <div class="row">
+          <div class="twelve columns">
+            <ul class="nav">
+              <li><a href="../index.html">HOME</a></li>
+              <li>|</li>
+              <li><a href="blog-landing.html">BLOGS</a></li>
+              <li>|</li>
+              <li><a href="#">PROJECTS</a></li>
+              <li>|</li>
+              <li><a href="#">CONTACT</a></li>
+              <li>|</li>
+              <li><a href="#">ABOUT ME</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Nav Menu -->
 
-    <div class="content">
-      <h1>HTML, CSS and the DOM Part 1</h1>
-      <h2>Wishlist of elements</h2>
-      <ul class="wishlist">
-        <li>Bold Header which clearly looks like a header.</li>
-        <li>A slide away effect on the menu bar as you slide beyond the header</li>
-        <li>A simple bold colour scheme with more accents than I currently have.</li>
-        <li>Box-out effects something similar to a magazine as part of the layout.</li>
-        <li>A bold, chunky footer.</li>
-        <li>A simple textured, repeating background.</li>
-      </ul>
+    <!-- Main section -->
+    <div class="section main">
+      <div class="container">
+        <div class="row">
+          <div class="four columns">
+            <img src="../images/billy.JPG">
+          </div>
+          <div class="eight columns">
+            <h1>HTML, CSS & the DOM</h1>
+            <em><p>2nd March 2017</p></em>
+            <strong><p>Wishlist of elements</p></strong>
+            <ul>
+              <li>Bold Header which clearly looks like a header</li>
+              <li>A slide away effect on the menu bar as you slide beyond the header</li>
+              <li>A simple bold colour scheme with more accents than I currently have</li>
+              <li>Box-out effects something similar to a magazine as part of the layout</li>
+              <li>A bold, chunky footer</li>
+              <li>A simple textured, repeating background</li>
+            </ul>
+            <strong><p>What are HTML, CSS and the DOM</p></strong>
+            <ul>
+              <li>HTML defines the structure of a web page</li>
+              <li>CSS defines how a web page looks</li>
+              <li>The DOM describers the underlying structure of a web site in a tree like structure</li>
+            </ul>
+            <strong><p>What is meant by boxifying design?</p></strong>
+            <p>
+              Boxifying design means breaking up a design into all of it's box
+              like elements. This could be done using a graphics application and
+              would allow the tranlsation of a design into something that can be
+              carved up to be then rendered using HTML & CSS. This works because
+              all elements in HTML are in fact boxes.
+            </p>
+            <strong><p>What is the box model?</p></strong>
+            <p>
+              The box model defines how an element on a site is displayed.
+              The box comprises of:
+            </p>
+            <ul>
+              <li>Content: This is the actual content of the element. It could be an image, some text or other elements defined by the HTML.</li>
+              <li>Padding: This provides space around the Content before getting to any border.</li>
+              <li>Border: This allows developers to render a border around the element and the padding.</li>
+              <li>Margin: This provides space outside the border which other elements are not able to cross into.</li>
+            </ul>
 
-      <h2>What are HTML, CSS and the DOM</h2>
-      <ul>
-        <li>HTML defines the structure of a web page.</li>
-        <li>CSS defines how a web page looks.</li>
-        <li>The DOM describers the underlying structure of a web site in a tree
-        like structure.</li>
-      </ul>
 
-      <h2>What is meant by boxifying design?</h2>
-      <p>Boxifying design means breaking up a design into all of it's box like elements.
-      This could be done using a graphics application and would allow the tranlsation of
-      a design into something that can be carved up to be then rendered using HTML & CSS.
-      This works because all elements in HTML are in fact boxes.</p>
 
-      <h2>What is the box model?</h2>
-      <p>The box model defines how an element on a site is displayed. The box comprises of:</p>
-      <ul>
-        <li>Content: This is the actual content of the element. It could be an image, some text
-        or other elements defined by the HTML.</li>
-        <li>Padding: This provides space around the Content before getting to any border.</li>
-        <li>Border: This allows developers to render a border around the element and the
-        padding.</li>
-        <li>Margin: This provides space outside the border which other elements are not able
-        to cross into.</li>
-      </ul>
 
+
+          </div>
+
+        </div>
+      </div>
     </div>
 
-    <div class="footer">
+    <!-- End of Main section -->
+
+    <!-- Footer section -->
+    <div class="section footer">
+      <div class="container">
+        <div class="row">
+          <div class="twelve columns">
+            <h5>A footer placeholder.</h5>
+          </div>
+        </div>
+      </div>
     </div>
+
   </body>
 </html>
