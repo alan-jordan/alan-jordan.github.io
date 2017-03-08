@@ -7,17 +7,16 @@ body {
 .container {
 
 }
-
-
 .header {
   background-color: #333;
-  margin-bottom: 2%;
+  /*margin-bottom: 2%;*/
 }
 
 .main_pic {
   display: block;
-  max-width: 95%;
+  /*max-width: 95%;*/
   margin: 0 auto;
+  padding-top: 10px;
   background-color: #F6EFE5;
 }
 
@@ -30,6 +29,10 @@ body {
   margin-left: 25px;
 }
 
+.footer {
+  color: #ddd;
+  background-color: #333;
+}
 .footer h5 {
   margin-left: 3%;
   padding-top: 2%
@@ -65,10 +68,10 @@ h1, h4 {
 }
 
 
-.footer {
-  color: #ddd;
-  background-color: #333;
-}
+
+
+
+
 
 .blog_link {
   max-width: 95%;
