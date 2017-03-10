@@ -69,3 +69,6 @@ body {
   background-color: #555;
   padding: 1%;
 }
+.side_image {
+  max-width: 100%;
+}
