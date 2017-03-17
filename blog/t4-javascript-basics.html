@@ -47,14 +47,18 @@
       <div class="container">
         <div class="row">
           <div class="four columns">
-            <img class="side_image" alt="my_cat" src="../images/billy.jpg">
+            <img class="side_image" alt="Cat staring at TV" src="../images/ziggy_tv.jpg">
           </div>
           <div class="eight columns">
             <h1>Javascript Basics</h1>
             <em><p>18th March 2017<p></em>
             <strong><p>How does JavaScript compare to HTML and CSS?</p></strong>
             <p>
-              ...
+              HTML and CSS are quite static. They define how a page is structured and
+              how a page is styled. Javascript though is a fully fledged programming
+              languages and allows us to do things dynamically. It can do math, check
+              for the state of things, perform actions based on other conditions, search
+              for things in data structures and a whole lot more.
             </p>
             <strong>
             <p>
@@ -62,8 +66,20 @@
               life, for example 'waking up' or 'brushing your teeth'.
             </p>
             </strong>
+            <code>
+              if (wakeUpState === 'tired') {
+                goMakeCoffee();
+              } else if (wakeUpState == 'notTired') {
+                goMakeTea();
+              }
+            </code>
+            <br/>
             <p>
-              ...
+              So basically, I check to see if I'm tired when I wake up. If I am, then I
+              run the goMakeCoffee function, in which I will make myself a cup of coffee.
+              This function will contain all the steps required to make a cup of coffee.
+              If I am not tired, then I will run the goMakeTea function instead, in which
+              I will perform all the steps required to make a cup of tea.
             </p>
             <strong><p>Explain the difference between accessing data from arrays and objects.</p></strong>
             <p>
