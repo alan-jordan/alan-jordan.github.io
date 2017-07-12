@@ -1,0 +1,41 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+  background-color: #353f40;
+}
+.header {
+}
+.footer {
+  color: white;
+}
+.projects {
+  color: white;
+}
+
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+  color: white;
+}
+
+.headerLogos {
+  margin-top: 20px;
+  height: 32px;
+  width: 32px;
+}
+
+.main {
+  background-image:url('../img/code.jpg');
+  background-repeat:no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position:center;
+}
+.techRuck {
+  width: 25vw;
+  height: auto;
+}
