@@ -4,32 +4,54 @@
    Author's custom styles
    ========================================================================== */
 body {
-  background-color: #353f40;
-  font-family: 'Playfair Display', serif;
-  color: white;
+  background-color: #ffcc00;
+  font-family: 'Zilla Slab', serif;
 }
 .header {
 }
 .footer {
-  color: white;
+  color: #231900;
 }
 .projects {
-  color: white;
+  color: #231900;
 }
 
-h1, h2 {
-  font-family: 'Playfair Display', serif;
+h1, h2, h3 {
+	color: #231900;
+	font-family: 'Open Sans';
+	font-size: 94px;
+	font-weight: 600;
+	letter-spacing: -2px;
+	line-height: 84px;
+	margin-bottom: 72px;
+	text-transform: uppercase;
+}
+
+.main h2 {
   color: white;
 }
-p, h3 {
-  color: white;
-  font-family: 'Playfair Display', serif;
+p, a {
+  color: #231900;
+	font-family: 'Crimson Text';
+	font-size: 34px;
+	font-weight: 500;
+	line-height: 48px;
+	margin-bottom: 48px;
+	max-width: 650px;
 }
+a:link, a:visited,  a:active {
+  color: #231900;
+  font-family: 'Open Sans';
+}
+
 
 .headerLogos {
-  margin-top: 20px;
+  margin-top: 4vw;
   height: 32px;
   width: 32px;
+  float: right;
+  margin-right: 15px;
+  margin-bottom: 15px;
 }
 
 .main {
@@ -45,7 +67,11 @@ p, h3 {
   padding-left: 5rem;
   padding-right: 5rem;
 }
-.techRuck {
-  width: 25vw;
+.mePage {
+  width: 100%;
+  height: auto;
+}
+.projectImage {
+  width: 100%;
   height: auto;
 }
